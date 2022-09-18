@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NavigationDrawer" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorControlHighlight">@android:color/transparent</item>
+    </style>
+
+    <style name="NavigationDrawerTheme1" parent="Widget.Design.NavigationView">
+        <item name="itemIconTint">@color/menu_item_color_state</item>
+        <item name="itemTextColor">@color/menu_item_color_state</item>
+        <item name="itemBackground">@drawable/menu_item_bg1</item>
+    </style>
+
+    <style name="NavigationDrawerTheme2" parent="Widget.Design.NavigationView">
+        <item name="itemIconTint">@color/menu_item_color_state</item>
+        <item name="itemTextColor">@color/menu_item_color_state</item>
+        <item name="itemBackground">@drawable/menu_item_bg2</item>
+    </style>
+
+    <style name="NavigationDrawerTheme3" parent="Widget.Design.NavigationView">
+        <item name="itemIconTint">@color/colorAccent</item>
+        <item name="itemTextColor">@color/colorAccent</item>
+        <item name="itemBackground">@drawable/menu_item_bg3</item>
+    </style>
+
+</resources>

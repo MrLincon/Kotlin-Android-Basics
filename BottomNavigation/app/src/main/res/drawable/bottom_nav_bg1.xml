@@ -1,0 +1,14 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:enterFadeDuration="100">
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:topRightRadius="16dp"
+                        android:topLeftRadius="16dp"></corners>
+                    <solid android:color="@color/colorOffWhite" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

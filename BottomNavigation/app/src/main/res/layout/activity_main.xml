@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom Navigation"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"></TextView>
+
+    </LinearLayout>
+
+   <FrameLayout
+       android:id="@+id/container_main"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="60dp"></FrameLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/colorAccent"
+        android:elevation="0dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="100dp"
+        app:icon="@drawable/ic_up_arrow"
+        app:iconTint="@color/colorWhite"
+        android:text="More"
+        android:textColor="@color/colorWhite"></com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

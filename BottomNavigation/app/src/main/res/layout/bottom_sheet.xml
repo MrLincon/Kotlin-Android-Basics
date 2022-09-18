@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="6dp"
+        android:background="@drawable/bottomsheet_header"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center|top"></View>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:paddingBottom="36dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/simple"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:text="Simple"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"></Button>
+
+            <Button
+                android:id="@+id/label_selected"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:text="Label (Selected)"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"></Button>
+
+            <Button
+                android:id="@+id/labeled"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:text="Labeled"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"></Button>
+
+            <Button
+                android:id="@+id/top_indicator"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:text="Top Indicator"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"></Button>
+
+            <Button
+                android:id="@+id/center_indicator"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:text="Center Indicator"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"></Button>
+
+            <Button
+                android:id="@+id/custom1"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:text="Custom Background 1"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"></Button>
+
+            <Button
+                android:id="@+id/custom2"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:text="Custom Background 2"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"></Button>
+
+            <Button
+                android:id="@+id/chip_navigation"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:text="Chip Navigation"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"></Button>
+
+            <Button
+                android:id="@+id/fab_right"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:text="Fab Right"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"></Button>
+
+            <Button
+                android:id="@+id/fab_centered"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:text="Fab Centered"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"></Button>
+
+            <Button
+                android:id="@+id/fab_centered_overlap"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:text="Fab Centered (Overlap)"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"></Button>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

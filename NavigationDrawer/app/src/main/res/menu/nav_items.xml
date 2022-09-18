@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/one"
+            android:icon="@drawable/ic_1"
+            android:title="One"></item>
+        <item
+            android:id="@+id/two"
+            android:icon="@drawable/ic_2"
+            android:title="Two"></item>
+        <item
+            android:id="@+id/three"
+            android:icon="@drawable/ic_3"
+            android:title="Three"></item>
+        <item
+            android:id="@+id/four"
+            android:icon="@drawable/ic_4"
+            android:title="Four"></item>
+    </group>
+    <item android:title="Styles">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/style_one"
+                    android:icon="@drawable/ic_1"
+                    android:title="Style One"></item>
+                <item
+                    android:id="@+id/style_two"
+                    android:icon="@drawable/ic_2"
+                    android:title="Style Two"></item>
+                <item
+                    android:id="@+id/style_three"
+                    android:icon="@drawable/ic_3"
+                    android:title="Style Three"></item>
+            </group>
+        </menu>
+    </item>
+</menu>

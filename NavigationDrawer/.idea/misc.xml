@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable-v24/bottom_nav_item_bg.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/ic_1.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/ic_add.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/item_pressed1.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/item_pressed2.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/item_pressed3.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/item_selector.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/item_selector1.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/item_selector2.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/item_selector3.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/item_selector_pressed1.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/menu_background_color_state.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/menu_item_bg1.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/menu_item_bg2.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/menu_item_bg3.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/menu_item_color_state.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/nav_header_bg.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/drawable/nav_header_bg2.xml" value="0.203" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/layout/activity_main.xml" value="0.3484375" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/layout/activity_style_one.xml" value="0.3333333333333333" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/layout/activity_style_three.xml" value="0.3333333333333333" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/layout/activity_style_two.xml" value="0.3625" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/layout/app_bar_main.xml" value="0.3614583333333333" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/layout/fragment_style1.xml" value="0.3333333333333333" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/layout/nav_header.xml" value="0.3614583333333333" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/layout/nav_header_style2.xml" value="0.3625" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/menu-v26/nav_items.xml" value="0.3625" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/menu/bottom_app_bar.xml" value="0.3625" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/menu/bottom_nav.xml" value="0.3625" />
+        <entry key="..\:/#Work/#Android/#Kotlin Apps/NavigationDrawer/app/src/main/res/menu/nav_items.xml" value="0.3333333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

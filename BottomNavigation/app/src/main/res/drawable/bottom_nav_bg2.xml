@@ -1,0 +1,13 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:enterFadeDuration="100">
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="60dp"></corners>
+                    <solid android:color="@color/colorOffWhite" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

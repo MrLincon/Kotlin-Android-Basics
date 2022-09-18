@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose One"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"></TextView>
+
+            <RadioButton
+                android:id="@+id/rb_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="One"
+                android:checked="true"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/rb_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Two"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/rb_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Three"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/rb_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Four"></RadioButton>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/rb_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check"
+            android:textSize="12sp"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_marginLeft="16dp"></Button>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="24dp"
+        android:src="@drawable/ic_back"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

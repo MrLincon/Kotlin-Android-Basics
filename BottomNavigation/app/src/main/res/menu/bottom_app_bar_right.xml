@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/one"
+        android:icon="@drawable/ic_1"
+        android:iconTint="@color/colorPrimary"
+        android:title="One"></item>
+    <item
+        android:id="@+id/two"
+        android:icon="@drawable/ic_2"
+        android:iconTint="@color/colorPrimary"
+        android:title="Two"></item>
+    <item
+        android:id="@+id/three"
+        android:icon="@drawable/ic_3"
+        android:iconTint="@color/colorPrimary"
+        android:title="Three"></item>
+    <item
+        android:id="@+id/four"
+        android:icon="@drawable/ic_4"
+        android:iconTint="@color/colorPrimary"
+        android:title="Four"></item>
+    <item
+        android:enabled="false"
+        android:title=""></item>
+</menu>
